@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solve Linear Equations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Solve Linear Equations in Two Variables</h1>
+        <form id="equationForm">
+            <h2>Equation 1:</h2>
+            <div class="equation-row">
+                <input type="number" id="a1" placeholder="a1"> x +
+                <input type="number" id="b1" placeholder="b1"> y =
+                <input type="number" id="c1" placeholder="c1">
+            </div>
+
+            <h2>Equation 2:</h2>
+            <div class="equation-row">
+                <input type="number" id="a2" placeholder="a2"> x +
+                <input type="number" id="b2" placeholder="b2"> y =
+                <input type="number" id="c2" placeholder="c2">
+            </div>
+
+            <button type="button" onclick="solveEquations()">Solve</button>
+        </form>
+
+        <h2>Solution:</h2>
+        <p id="solution"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
